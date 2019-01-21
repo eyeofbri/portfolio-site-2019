@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<script src="https://use.fontawesome.com/f25223f08e.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Quicksand:400,500,700" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+
+		<title>Brian McLendon Computer Arts</title>
+	</head>
+	<body>
+		
+		<header class="page-header">
+
+			<img
+				class="page-header--logo"
+				src="assets/images/bm_logoSeal_black.png" 
+				alt="brian mclendon computer arts (logo image)"
+			>
+			
+			<div class="page-header--nav">
+				<ul>
+
+					<li>
+						<a onclick="toggle_modal('open_about')">
+							<i class="fa fa-user fa-2x" aria-hidden="true"></i>
+							<span>about</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="http://brianmclendon.com/webX/" target="_blank">
+							<i class="fa fa-flask fa-2x" aria-hidden="true"></i>
+							<span>experiments</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://github.com/eyeofbri" target="_blank">
+							<i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
+							<span>github</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#resume">
+							<i class="fa fa-file-text fa-2x" aria-hidden="true"></i>
+							<span>resume</span>
+						</a>
+					</li>
+
+					<li>
+						<a onclick="toggle_modal('open_contact')">
+							<i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+							<span>contact</span>
+						</a>
+					</li>
+
+					<li style="display:none">
+						<a href="#games">
+							<i class="fa fa-gamepad fa-2x" aria-hidden="true"></i>
+							<span>games</span>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</header>
+
+		<section class="portfolio">
+
+			<h1>Selected Work of Brian McLendon</h1>
+
+			<!-- logos -->
+			<article class="closed">
+				<button class="toggle" onclick="toggle_portfolioContent(event)">
+					<h2>Logos & Brand Marks</h2>
+					<h3>Graphic Design <span class="tools">Adobe Illustrator, Adobe Photoshop, Pen, Pencil</span></h3>	
+				</button>
+				
+				<div class="content">
+					<summary>Various logos designed for a range of clients between 2016 & 2018.</summary>
+
+					<figure>
+						<div id="carousel_logos" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<!-- <ol class="carousel-indicators">
+								<li data-target="#carousel_logos" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel_logos" data-slide-to="1"></li>
+								<li data-target="#carousel_logos" data-slide-to="2"></li>
+							</ol> -->
+						
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="./assets/portfolio/logos/logo_cloud_nation.jpg" alt="">
+								</div>
+
+								<div class="item">
+									<img src="./assets/portfolio/logos/logo_lfac_1.jpg" alt="">
+								</div>
+
+								<div class="item">
+									<img src="./assets/portfolio/logos/logo_mindcore.jpg" alt="">
+								</div>
+
+								<div class="item">
+									<img src="./assets/portfolio/logos/logo_redcap.jpg" alt="">
+								</div>
+
+								<div class="item">
+									<img src="./assets/portfolio/logos/logo_lfac_2.jpg" alt="">
+								</div>
+
+								<div class="item">
+									<img src="./assets/portfolio/logos/logo_rrealty.jpg" alt="">
+								</div>
+
+								<div class="item">
+									<img src="./assets/portfolio/logos/logo_sun_a_m.jpg" alt="">
+								</div>
+
+								<div class="item">
+									<img src="./assets/portfolio/logos/logo_superior_styles.jpg" alt="">
+								</div>
+
+								<div class="item">
+									<img src="./assets/portfolio/logos/logo_syber3.jpg" alt="">
+								</div>
+							</div>
+						
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#carousel_logos" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel_logos" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</figure>	
+				</div>
+			</article>
+
+			<!-- illustrations, posters, and typography -->
+			<article class="closed">
+				<button class="toggle" onclick="toggle_portfolioContent(event)">
+					<h2>Illustrations, Posters, & Typography</h2>
+					<h3>
+						General Design
+						<span class="tools">Adobe Illustrator, Adobe Photoshop, Pen, Pencil, Photography</span>
+					</h3>
+				</button>
+				
+				<div class="content">
+					<summary>Illustrative and typographic elements for use in various digital and printed matter for clientele.</summary>
+			
+					<figure>
+						<div id="carousel_illustrationsETC" class="carousel slide" data-ride="carousel">
+						
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="./assets/portfolio/illustrations/illustration-and-posters_branding1.jpg" alt="">
+								</div>
+								<div class="item">
+									<img src="./assets/portfolio/illustrations/illustration-and-posters_branding2.jpg" alt="">
+								</div>
+								<div class="item">
+									<img src="./assets/portfolio/illustrations/illustration-and-posters_measureTwice.jpg" alt="">
+								</div>
+								<div class="item">
+									<img src="./assets/portfolio/illustrations/illustration-and-posters_customerReviews.jpg" alt="">
+								</div>
+								<div class="item">
+									<img src="./assets/portfolio/illustrations/illustration-and-posters_visualizeAppeal.jpg" alt="">
+								</div>
+								<div class="item">
+									<img src="./assets/portfolio/illustrations/illustration-and-posters_motorfunker.jpg" alt="">
+								</div>
+							</div>
+
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#carousel_illustrationsETC" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel_illustrationsETC" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</figure>	
+				</div>
+			</article>
+
+			<!-- my to do list -->
+			<article class="closed">
+				<button class="toggle" onclick="toggle_portfolioContent(event)">
+					<h2>My To Do List</h2>
+					<h3>
+						App Design & Development
+						<span class="tools">Adobe Illustrator, Adobe Photoshop, Adobe Indesign, CSS3, Firebase, HTML5, Javascript, JQuery</span>
+					</h3>		
+				</button>
+				
+				<div class="content">
+					<summary>
+						A simple daily task manager. Presents the user with an interface for displaying tracks tasks, allowing dynamic updates and completing.
+						<a href="http://brianmclendon.com/toDo/" target="_blank">Try it out here.</a>
+					</summary>
+			
+					<figure>
+						<div id="carousel_taskManager" class="carousel slide" data-ride="carousel">
+						
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="./assets/portfolio/toDoList/app_toDoList.png" alt="">
+								</div>
+								<div class="item">
+									<img src="./assets/portfolio/toDoList/app_toDoList2.png" alt="">
+								</div>
+							</div>
+
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#carousel_taskManager" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel_taskManager" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</figure>	
+				</div>
+			</article>
+
+			<!-- music apps -->
+			<article class="closed">
+				<button class="toggle" onclick="toggle_portfolioContent(event)">
+					<h2>Music Applications</h2>
+					<h3>
+						Programming, UI, & UX
+						<span class="tools">Adobe Illustrator, Adobe Photoshop, Audio Recording, C#, Unity3D </span>
+					</h3>
+				</button>
+				
+				<div class="content">
+					<summary>A few synthesizers and soundmakers created to experiment with music-software UX.
+						<a href="http://brianmclendon.com/webX/2017/1/" target="_blank">Try out the drum machine here.</a>
+					</summary>
+			
+					<figure>
+						<div id="carousel_musicApps" class="carousel slide" data-ride="carousel">
+						
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item">
+									<a href="http://brianmclendon.com/webX/2017/1/" target="_blank">
+										<img src="./assets/portfolio/music-apps/music_apps3.jpg" alt="">
+									</a>
+								</div>
+								<div class="item">
+									<img src="./assets/portfolio/music-apps/music_apps4.jpg" alt="">
+								</div>
+								<div class="item active">
+									<img src="./assets/portfolio/music-apps/music_apps2.jpg" alt="">
+								</div>
+								<div class="item">
+									<img src="./assets/portfolio/music-apps/music_apps1.jpg" alt="">
+								</div>
+							</div>
+
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#carousel_musicApps" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel_musicApps" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</figure>	
+				</div>
+			</article>
+
+			<!-- guessing game -->
+			<article class="closed">
+				<button class="toggle" onclick="toggle_portfolioContent(event)">
+					<h2>Wizard Word Guess</h2>
+					<h3>
+						Game Development
+						<span class="tools">Adobe Illustrator, Adobe Photoshop, CSS3, HTML5, Javascript</span>
+					</h3>
+				</button>
+				
+				<div class="content">
+					<summary>
+						An endless word guessing game. The player is a wizard tasked with deciphering scrolls to use spells and defeat enemies on his journey.
+						<a href="https://fathomless-tor-90472.herokuapp.com/" target="_blank">Play it here!</a>
+					</summary>
+			
+					<figure>
+						<div id="carousel_wordGuess" class="carousel slide" data-ride="carousel">
+						
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<a href="https://fathomless-tor-90472.herokuapp.com/" target="_blank">
+										<img src="./assets/portfolio/game-dev/game_wordguess.png">
+									</a>
+								</div>
+							</div>
+						</div>
+					</figure>	
+				</div>
+			</article>
+
+			<!-- Schumacher web -->
+			<article class="closed">
+				<button class="toggle" onclick="toggle_portfolioContent(event)">
+					<h2>Schumacher Insurance</h2>
+					<h3>
+						Web Design & Development
+						<span class="tools">Adobe Illustrator, Adobe Photoshop, HTML, CSS, Wordpress</span>
+					</h3>		
+				</button>
+				
+				<div class="content">
+					<summary>
+						Website layout and User Experience designed and developed for the Schumacher Insurance Agency of Montclair, NJ. 
+						<a href="http://schins.net" target="_blank">schins.net</a>
+					</summary>
+			
+					<figure>
+						<div id="carousel_schumacher" class="carousel slide" data-ride="carousel">
+						
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="./assets/portfolio/web-dev/schumacher/schumacher_1.jpg" alt="">
+								</div>
+
+								<div class="item">
+									<img src="./assets/portfolio/web-dev/schumacher/schumacher_2.jpg" alt="">
+								</div>
+
+								<div class="item">
+									<img src="./assets/portfolio/web-dev/schumacher/schumacher_3.jpg" alt="">
+								</div>
+							</div>
+						
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#carousel_schumacher" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel_schumacher" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</figure>	
+				</div>
+			</article>
+
+			<!-- Right From The Start NJ web -->
+			<article class="closed">
+				<button class="toggle" onclick="toggle_portfolioContent(event)">
+					<h2>Right From The Start NJ</h2>
+					<h3>
+						Web Design & Development
+						<span class="tools">Adobe Photoshop, CSS, HTML, Joomla, RSForm!Pro</span>
+					</h3>		
+				</button>
+				
+				<div class="content">
+					<summary>
+						Website developed with content management, animations, and manageable interactivity.
+						<a href="https://www.rightfromthestartnj.org" target="_blank">rightfromthestartnj.org</a>
+					</summary>
+			
+					<figure>
+						<div id="carousel_rftsnj" class="carousel slide" data-ride="carousel">
+						
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="./assets/portfolio/web-dev/rftsnj/rftsnj_1.jpg" alt="">
+								</div>
+
+								<div class="item">
+									<img src="./assets/portfolio/web-dev/rftsnj/rftsnj_3.jpg" alt="">
+								</div>
+
+								<div class="item">
+									<img src="./assets/portfolio/web-dev/rftsnj/rftsnj_2.jpg" alt="">
+								</div>
+							</div>
+						
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#carousel_rftsnj" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel_rftsnj" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</figure>	
+				</div>
+			</article>
+
+			<!-- CJIS Solutions web -->
+			<article class="closed">
+				<button class="toggle" onclick="toggle_portfolioContent(event)">
+					<h2>CJIS Solutions</h2>
+					<h3>
+						Web Design & Development
+						<span class="tools">Adobe Photoshop, CSS, HTML, Wordpress</span>
+					</h3>		
+				</button>
+				
+				<div class="content">
+					<summary>
+						Designed & developed this website as an upgrade of an older site. The new site needed to be sleeker, but evoke similar feelings.
+						<a href="https://cjissolutions.com/" target="_blank">cjissolutions.com</a>
+					</summary>
+			
+					<figure>
+						<div id="carousel_cj" class="carousel slide" data-ride="carousel">
+						
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="./assets/portfolio/web-dev/cjis/cjis_1.jpg" alt="">
+								</div>
+
+								<div class="item">
+									<img src="./assets/portfolio/web-dev/cjis/cjis_2.jpg" alt="">
+								</div>
+
+							</div>
+						
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#carousel_cj" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel_cj" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</figure>
+				</div>
+			</article>
+
+			<!-- SYBER 3 web -->
+			<article class="closed">
+				<button class="toggle" onclick="toggle_portfolioContent(event)">
+					<h2>Syber 3</h2>
+					<h3>
+						Graphic Design, Web Design & Development
+						<span class="tools">Adobe Photoshop, Adobe Illustrator, CSS, HTML, Wordpress</span>
+					</h3>		
+				</button>
+				
+				<div class="content">
+					<summary>
+						Designed & developed the logo and website for this cyber securities service company.
+						<a href="https://www.syber3.com" target="_blank">syber3.com</a>
+					</summary>
+			
+					<figure>
+						<div id="carousel_s3" class="carousel slide" data-ride="carousel">
+						
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="./assets/portfolio/web-dev/syber3/syber3_1.jpg" alt="">
+								</div>
+
+								<div class="item">
+									<img src="./assets/portfolio/web-dev/syber3/syber3_2.jpg" alt="">
+								</div>
+
+							</div>
+						
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#carousel_s3" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel_s3" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</figure>
+				</div>
+			</article>
+
+		</section>
+
+		<footer>
+			<div>© 2005-2019 Brian Lee McLendon II</div>
+		</footer>
+
+
+		<div class="modal">
+			<div class="modal-content">
+				<span class="modal-close" onclick="toggle_modal('close_modal')">&times;</span>
+				<div class="modal-inner"></div>
+			</div>
+		</div>
+
+		<script>
+			function toggle_portfolioContent(event) {
+				var article = event.target;
+
+				if(article.tagName == "H2" || article.tagName == "H3"){
+					article = article.parentElement.parentElement;
+				}else if(article.tagName == "SPAN"){
+					article = article.parentElement.parentElement.parentElement;
+				}else{
+					article = article.parentElement;
+				}
+				
+
+				if (article.classList) { 
+					article.classList.toggle("closed");
+				} else {
+				// For IE9
+				var classes = article.className.split(" ");
+				var i = classes.indexOf("closed");
+
+				if (i >= 0) 
+					classes.splice(i, 1);
+				else 
+					classes.push("closed");
+					article.className = classes.join(" ");
+				}
+			}
+
+
+			function toggle_modal(params) {
+				if(!modal)
+					modal = document.getElementsByClassName("modal")[0];
+					window.onclick = function(event) {
+						if (event.target == modal) modal.style.display = "none";
+					}
+
+				let params_split = params.split('_');
+				modal.style.display = params_split[0] == "open" ? "block" : "none";
+				
+				modal.getElementsByClassName("modal-inner")[0].innerHTML = "";
+				modal.getElementsByClassName("modal-inner")[0].appendChild(helper_modal(params_split[1]));
+			}
+
+			function helper_modal(params) {
+				let modal_info_type = params == "about" ? modal_about_txt : modal_contact_txt;
+
+				let  container = document.createElement('div');
+				let title = document.createElement("h4");
+				title.textContent = modal_info_type.title;
+				let subTitle;
+				let hr_break = document.createElement("hr");
+				let paragraph;
+
+				switch (params) {
+					case "about":
+						subTitle = document.createElement("p");
+						subTitle.textContent = modal_info_type.subTitle;
+
+						paragraph = document.createElement("span");
+						paragraph.textContent = modal_info_type.paragraph;
+					break;
+					case "contact":
+						subTitle = document.createElement("a");
+						let linkText = document.createTextNode(modal_info_type.subTitle);
+						subTitle.appendChild(linkText);
+						subTitle.title = modal_info_type.subTitle;
+						subTitle.href = "mailto:" + modal_info_type.subTitle;
+
+						paragraph = document.createElement("span");
+
+						for (let index = 0; index < modal_info_type.paragraph.length; index++) {
+							const element = modal_info_type.paragraph[index];
+
+							let p_link = document.createElement("a");
+							let p_linkText = document.createTextNode(
+								element.split('.')[0].toUpperCase()
+								+ ": "
+								+ element.split('/').pop()
+							);
+							p_link.appendChild(p_linkText);
+							p_link.title = element.split('.')[0];
+							p_link.href = "https://www." + element;
+							p_link.setAttribute('target', '_blank');
+							paragraph.appendChild(p_link);
+							
+							if(index != modal_info_type.paragraph.length-1){
+								let p_link__hr_break = document.createElement("hr");
+								paragraph.appendChild(p_link__hr_break);
+							}
+						}
+					break;
+					default:break;
+				}
+
+				container.appendChild(title);
+				container.appendChild(subTitle);
+				container.appendChild(hr_break);
+				container.appendChild(paragraph);
+				return container;
+			}
+			var modal;
+			const modal_about_txt = {
+				title: "About Me: Web Developer & UI / UX Specialist",
+				subTitle: "Multifaceted tech professional with extensive experience in design and frontend development",
+				paragraph: "Technical Proficiencies & Tools: Adobe Creative Suite, Adobe Script, APIs, Bootstrap, Browser-Agnostic HTML5, CLI, C#, Cross-Browser Responsive CSS, Firebase, Git, Github, Graphic Design, Javascript (ES6/7), jQuery, JSON, MacOS, Multitrack Recording, MySQL, Node.js, NPM, Logic Pro, PC, Photography, React, Unity 3D, WordPress"
+			};
+			const modal_contact_txt = {
+				title: "Contact Me:",
+				subTitle: "mclendon.brian@gmail.com",
+				paragraph: ["linkedin.com/in/brian-mclendon", "twitter.com/eyeofbri"]
+			};
+		</script>
+				
+	</body>
+</html>
