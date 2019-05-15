@@ -230,6 +230,7 @@ textarea, select, input, button { outline: none; }
     font-size: small;
     padding: 10px;
     padding-left: 20px;
+    background-color: rgb(0, 0, 0);
 }
 
 .portfolio article summary a{
